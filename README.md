@@ -86,6 +86,10 @@ or
 yarn vercel
 ```
 
+## Also notice the .github/workflows/build-and-deploy.yml action automatically to deploy to github pages
+
+
+
 # TransitFind
 
 TransitFind is an MBTA line/stop information web app for dedicated displays.
