@@ -4,6 +4,8 @@
 
 https://github.com/coding-to-music/mbta-stop-display-updated
 
+https://mbta-stop-display-updated.vercel.app
+
 From / By https://github.com/jprusik/mbta-stop-display
 
 https://jprusik.github.io/mbta-stop-display/
@@ -38,13 +40,15 @@ git push -u origin main
 ```
 cp .env.example .env
 
-Register for a google tag 
+Create a Google Tag Manager Account
 
 https://tagmanager.google.com/#/home
 
-https://tagmanager.google.com/?authuser=0#/home
-
 https://support.google.com/google-ads/answer/11994839?sjid=10442131574757201905-NA
+
+Create a New Tag of type Google Analytics: Universal Analytics
+
+Create a Trigger of type Page Views
 
 modify .env
 
@@ -54,6 +58,28 @@ yarn build
 Open port 3000
 
 yarn start
+```
+
+## Deploy to Vercel
+
+Install the Vercel CLI
+
+```
+yarn global add vercel
+
+or
+
+npm i -g vercel@latest
+
+or
+
+pnpm i -g vercel@latest
+```
+
+Deploy to Vercel
+
+```
+vercel --prod
 ```
 
 # TransitFind
