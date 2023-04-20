@@ -33,6 +33,29 @@ git remote add origin git@github.com:coding-to-music/mbta-stop-display-updated.g
 git push -u origin main
 ```
 
+## typical start
+
+```
+cp .env.example .env
+
+Register for a google tag 
+
+https://tagmanager.google.com/#/home
+
+https://tagmanager.google.com/?authuser=0#/home
+
+https://support.google.com/google-ads/answer/11994839?sjid=10442131574757201905-NA
+
+modify .env
+
+yarn install
+yarn build
+
+Open port 3000
+
+yarn start
+```
+
 # TransitFind
 
 TransitFind is an MBTA line/stop information web app for dedicated displays.
