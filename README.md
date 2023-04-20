@@ -80,6 +80,10 @@ Deploy to Vercel
 
 ```
 vercel --prod
+
+or
+
+yarn vercel
 ```
 
 # TransitFind
