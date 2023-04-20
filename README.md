@@ -58,7 +58,6 @@ yarn build
 Open port 3000
 
 yarn start
-
 ```
 
 ## Deploy to Vercel
