@@ -36,6 +36,7 @@
   "scripts": {
     "start": ". ./.env ; react-scripts start",
     "build": ". ./.env ; react-scripts build",
+    "vercel": "vercel --prod",
     "autobuild": "CI=false && react-scripts build",
     "test": "react-scripts test",
     "deploy": "git add . && git commit -m Build && git push"
